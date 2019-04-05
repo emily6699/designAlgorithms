@@ -11,6 +11,10 @@
 //6. recursively finding about the numbers of the largest value coin.
 //7. add all the numbers together.
 
+// how to use debug VSC in the Chrome
+// 1. node--inspect fileName
+// 2. node--inspect - brk fileName
+
 const findAsFewCoins = number => {
   const coins = [25, 10, 5, 1];
   let remainder = number;
